@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <script src="./scripts/color-modes.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JV Personal Trainer</title>
@@ -13,7 +12,7 @@
   </head>
   <body data-bs-theme="dark">
     <div class="container">
-      <!-- NAVBAR -->
+      <!-- NAVBAR START -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary rounded sticky-top">
         <div class="container-fluid">
           <button
@@ -50,10 +49,13 @@
                 <a class="nav-link" href="#servicos">Serviços</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FAQs</a>
+                <a class="nav-link" href="#depoimentos">Depoimentos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="#faq">Perguntas frequentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
               </li>
             </ul>
             <div class="d-lg-flex col-lg-3 justify-content-lg-end">
@@ -64,8 +66,9 @@
           </div>
         </div>
       </nav>
+      <!-- NAVBAR END -->
 
-      <!-- HERO -->
+      <!-- HERO START -->
       <div id="sobre" class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
@@ -114,9 +117,10 @@
           </div>
         </div>
       </div>
+      <!-- HERO END -->
 
-      <!-- SERVICOS -->
-      <div id="servicos" class="container px-4 py-5" id="hanging-icons">
+      <!-- SERVICOS START -->
+      <div id="servicos" class="container col-xxl-8 px-4 py-5">
         <h2 class="pb-2 border-bottom">
           As melhores aulas, para a sua necessidade
         </h2>
@@ -147,7 +151,9 @@
                 emagrecimento) e de saúde (auxiliando no tratamento de doenças
                 musculares, ósseas, metabólicas, melhora na mobilidade, postura
                 etc). As aulas são extremamente personalizadas e contam com
-                avaliações físicas, para auxiliar o aluno nos seus objetivos.
+                avaliações físicas, para auxiliar o aluno nos seus objetivos. Os
+                treinos são prescritos de forma individualizada seja para
+                hipertrofia, emagrecimento ou definição muscular.
               </p>
               <a href="#" class="btn btn-primary">
                 <svg
@@ -266,8 +272,699 @@
           </div>
         </div>
       </div>
+      <!-- SERVICOS END -->
 
-      <!-- FOOTER -->
+      <!-- DEPOIMENTOS START -->
+      <div id="depoimentos" class="container col-xxl-8 px-4 py-5">
+        <div class="testimonial-slider">
+          <div
+            id="carouselExampleControls"
+            class="carousel carousel-dark"
+            data-bs-ride="carousel"
+          >
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="testimonial-title">
+                    <i class="bi bi-quote display-2"></i>
+                    <h2 class="fw-bold display-6">
+                      O que alguns dos meus alunos dizem:
+                    </h2>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Próximo</span>
+                  </button>
+                </div>
+                <div class="col-md-8">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Cristiana</h5>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <p class="card-text">
+                            "Professor dedicado, evoluí muito através das aulas
+                            dele"
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Ana</h5>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <p class="card-text">
+                            "João é um personal dedicado e atencioso, incentiva
+                            o aluno dar o seu melhor para uma boa evolução."
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Aline</h5>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <p class="card-text">
+                            "Atencioso e tem muito cuidado com os alunos."
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">William</h5>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <p class="card-text">
+                            "O João Victor é um excelente profissional, muito
+                            atencioso e tira todas as dúvidas. Fiquei para longe
+                            dos esportes pouco mais de um ano e meio, e ele me
+                            ajudou a retornar e manter uma boa performance. Pode
+                            confiar de olhos fechados!!"
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Adriely</h5>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <p class="card-text">
+                            "Um excelente profissional, muito capacitado, faço
+                            personal com ele, e super recomendo em um ano,
+                            conseguimos muito resultado, super indico."
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Bruno</h5>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <p class="card-text">
+                            "Conheço muito esse excelente profissional"
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Claudia</h5>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            class="bi bi-star-fill"
+                            viewBox="0 0 16 16"
+                          >
+                            <path
+                              d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            />
+                          </svg>
+                          <p class="card-text">
+                            "Profissional modelo, suas aulas são super animadas,
+                            eu que não gostava de academia comecei a gostar por
+                            causa das aulas do Professor João, para mim já é um
+                            super professor"
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- DEPOIMENTOS END -->
+
+      <!-- FAQs START -->
+      <div id="faq" class="container col-xxl-8 px-4 py-5">
+        <section>
+          <h3 class="text-center mb-4 pb-2 text-primary fw-bold">
+            Perguntas Frequentes
+          </h3>
+          <p class="text-center mb-5">
+            Encontre abaixo as respostas para as perguntas mais frequentes:
+          </p>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary">
+                <i class="far fa-paper-plane text-primary pe-2"></i> Quero ter
+                um plano de treino, o que preciso?
+              </h6>
+              <p>
+                <strong><u>Parabéns por cuidar da sua saúde!</u></strong> Serei
+                o seu instrutor nessa jornada, entre em contato agora mesmo,
+                pois com a minha metodologia personalizada farei o necessário
+                para te ajudar.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary">
+                <i class="fas fa-pen-alt text-primary pe-2"></i> Qual é o melhor
+                plano de treino para mim?
+              </h6>
+              <p>
+                <strong><u>O personal trainer</u></strong>
+                possue conhecimento e segue diretrizes que se adequam a cada
+                pessoa e a cada rotina. Faremos juntos uma avaliação para
+                determinar a melhor escolha, seja para ganho de massa muscular,
+                emagrecimento ou condicionamento físico.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary">
+                <i class="fas fa-user text-primary pe-2"></i> Quantas vezes por
+                semana devo treinar?
+              </h6>
+              <p>
+                A pergunta que se deve fazer é: quantas vezes por semana estás
+                disposto a treinar para atingir os teus objetivos? Geralmente a
+                resposta mínima é: entre 2 a 3 dias.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary">
+                <i class="fas fa-rocket text-primary pe-2"></i> Qualquer um pode
+                praticar Muay Thai?
+              </h6>
+              <p>
+                <strong><u>Sim.</u></strong> Vale lembrar que o esporte pode ser
+                praticado por homens e mulheres em qualquer faixa etária, salvo
+                casos muito específicos em que podemos precisar de um aval
+                médico. Mas tenha um mente que aulas de Muay Thai com um
+                Personal Fighter, não são como nas academias, ela é
+                individualizda e toda segurança é aplicada para que o aluno não
+                corra risco de lesão.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary">
+                <i class="fas fa-book-open text-primary pe-2"></i> Como
+                funcionam as aulas de Muay Thai?
+              </h6>
+              <p>
+                Como são aulas individualizadas, inicia-se com um aquecimento
+                que serve também como condicionamento físico, variando entre
+                alongamento, treinamento de força, explosão e outros. As aulas
+                contem o ensino de técnicas fundamentais e avançadas a depender
+                do nível de instrução do aluno, normalmente a última parte da
+                aula se faz com uma simulação de luta, com equipamentos de
+                proteção e é o momento em que pode-se utilizar tudo o que foi
+                aprendido.
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <h6 class="mb-3 text-primary">
+                <i class="fas fa-home text-primary pe-2"></i> Estou fora de
+                forma e preciso perder peso, consigo com atividades de treino
+                funcional?
+              </h6>
+              <p>
+                <strong><u>Absolutamente! </u></strong>As aulas de treino
+                funcional melhoram seu condicionamento físico de forma bastante
+                lúdica, uma vez que executando as técnicas você trabalha todo o
+                corpo, ganhando flexibilidade e força muscular, além de uma boa
+                queima calórica que o ajudará na perda de peso. As aulas são
+                super dinâmicas e em grupo, o que não deixe ninguém ficar
+                parado!
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- FAQs END -->
+
+      <!-- CONTATOS START -->
+      <div id="contato" class="container col-xxl-8 px-4 py-5">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Endereço de email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Seu email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >Nunca vamos compartilhar seu email, com ninguém.</small
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"
+              >Deixe a sua mensagem</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <!-- CONTATOS END -->
+
+      <!-- FOOTER START -->
       <div class="container-footer">
         <footer
           class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
@@ -313,8 +1010,14 @@
           </ul>
         </footer>
       </div>
+      <!-- FOOTER END -->
     </div>
     <!-- BOOTSTRAP JS SCRIPTS -->
     <script src="./scripts/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/color-modes.js"></script>
+    <!-- JQUERY SCRIPTS -->
+    <script src="./scripts/jquery.min.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
