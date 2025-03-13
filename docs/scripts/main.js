@@ -15,7 +15,7 @@ $(document).ready(function () {
           scrollPosition += cardWidth;
           $("#carouselExampleControls .carousel-inner").animate(
             { scrollLeft: scrollPosition },
-            600
+            300
           );
         }
       }
@@ -27,7 +27,7 @@ $(document).ready(function () {
           scrollPosition -= cardWidth;
           $("#carouselExampleControls .carousel-inner").animate(
             { scrollLeft: scrollPosition },
-            600
+            300
           );
         }
       }
